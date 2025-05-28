@@ -1,4 +1,9 @@
 # TPEG2
+
+To create class files create src folder in TPEG2Protobuf and use 
+
+``protoc --java_out=./src TPEG/*.proto``
+
 Since its inception in 2007, TISA has created a variety of TPEG specifications. For their standardisation, TISA works actively together with ISO TC204 in a tight process that ensures quality and harmonisation with other standards.
 
 TPEG specifications refer to ISO-21219 series. TISA has taken over responsibility for TPEG specifications development and maintenance, with an ISO Liaison agreement.
